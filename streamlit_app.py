@@ -3,6 +3,8 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import numpy as np
+
 progress_bar = st.progress(0)
 status_text = st.empty()
 chart = st.line_chart(np.random.randn(10, 2))
