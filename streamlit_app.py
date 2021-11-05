@@ -4,6 +4,7 @@ import math
 import pandas as pd
 import streamlit as st
 import numpy as np
+import time
 
 progress_bar = st.progress(0)
 status_text = st.empty()
